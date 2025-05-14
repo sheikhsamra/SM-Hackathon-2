@@ -329,8 +329,13 @@ body {
     background-color: rgb(223, 223, 223);
     border-radius: 50%;
 }
-.social-icon1{
-    background-image: conic-gradient();
+.social-icon1 img{
+    background-color: #8A79DF;
+}
+
+#Testimonials{
+    display: flex;
+    
 }
 
 /* Custom responsive styling */
