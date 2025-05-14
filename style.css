@@ -301,29 +301,8 @@ body {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-.overly-card {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-  margin-top: 300px ;
-  right: 100px; /* or left: 20px; adjust horizontally */
-  background-color: white;
-  padding: 10px;
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  width: 200px;
-  gap: 10px;
-}
 
-.overly-card img{
-    border-radius: 50%;
-}
 
-.overly-card span{
-    color: #8A79DF;
-}
 .social-links img{
     padding: 20px;
     background-color: rgb(223, 223, 223);
@@ -332,57 +311,6 @@ body {
 .social-icon1 img{
     background-color: #8A79DF;
 }
-
-#Testimonials{
-    display: flex;
-    
-}
-
-/* Custom responsive styling */
-@media (max-width: 991px) {
-  #book-trip .row {
-    flex-direction: column;
-  }
-  .trip-card {
-    width: 50px;
-    height: 50px;
-  }
-  .big-card {
-    margin: 0 auto 2rem;
-  }
-  .position-absolute.end-0.bottom-0.translate-middle-y {
-    position: static !important;
-    transform: none !important;
-    width: 100% !important;
-    margin-top: 1rem;
-  }
-  .testimonial-user-img {
-    position: relative !important;
-    top: auto !important;
-    left: auto !important;
-    transform: none !important;
-    margin-bottom: 1rem;
-    display: block;
-  }
-  .testimonial-card {
-    margin-top: 0 !important;
-  }
-}
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-  .fw-bold {
-    font-size: 1.25rem;
-  }
-  .big-card, .card {
-    width: 100% !important;
-  }
-}
-
-
-
 
 
 
@@ -416,6 +344,34 @@ body {
     .hero-btns {
         justify-content: center;
     }
+      #book-trip .row {
+    flex-direction: column;
+  }
+  .trip-card img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+  }
+  .big-card {
+    margin: 0 auto 2rem;
+  }
+  .position-absolute.end-0.bottom-0.translate-middle-y {
+    position: static !important;
+    transform: none !important;
+    width: 100% !important;
+    margin-top: 1rem;
+  }
+  .testimonial-user-img {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .testimonial-card {
+    margin-top: 0 !important;
+  }
 }
 
 /* Mobile - Small Devices */
@@ -459,4 +415,16 @@ body {
         gap: 10px;
         flex-wrap: wrap;
     }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .fw-bold {
+    font-size: 1.25rem;
+  }
+  .big-card, .card {
+    width: 100% !important;
+  }
 }
