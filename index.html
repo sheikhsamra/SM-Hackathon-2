@@ -1,378 +1,399 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SM SMIT Hackathone-2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-<div>
 
-        <!-- navigation menu -->
-  <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid d-flex justify-content-between align-items-center ms-auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SM SMIT Hackathone-2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <!-- Logo Left on All Screens -->
-    <a class="navbar-brand me-auto ms-5 " href="#">
-      <img src="./assets/navlogo.png" alt="">
-    </a>
+<body>
+  <div>
 
-    <!-- Toggler Right on Mobile -->
-    <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <!-- navigation menu -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid d-flex align-items-center justify-content-between">
 
-    <!-- Navigation Links -->
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav gap-5 me-5">
-        <li class="nav-item">
-          <a class="nav-link text-dark li-links" aria-current="page" href="#offer-section">Destinations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark li-links" href="#cards-section">Hotels</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark li-links" href="#book-trip">Flights</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark li-links" href="#Testimonials">Bookings</a>
-        </li>
-        <li>
-          <button class="btn pe-3 ps-3 li-links">Login</button>
-        </li>
-        <li>
-          <button class="btn border-dark pe-3 ps-3 li-links">Sign up</button>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-dark li-links" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            EN
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">EN</a></li>
-            <li><a class="dropdown-item" href="#">UR</a></li>
+        <!-- ✅ Logo on the Left -->
+        <a class="navbar-brand ms-3" href="#">
+          <img src="./assets/navlogo.png" alt="Logo" />
+        </a>
+
+        <!-- ✅ Toggler Button on Mobile -->
+        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- ✅ Nav Links on the Right -->
+        <div class="collapse navbar-collapse justify-content-end me-3" id="navbarNavDropdown">
+          <ul class="navbar-nav gap-5 ">
+            <li class="nav-item">
+              <a class="nav-link  li-links" href="#offer-section">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link li-links" href="#cards-section">Hotels</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link li-links" href="#book-trip">Flights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link li-links" href="#Testimonials">Bookings</a>
+            </li>
+            <li>
+              <button class="btn px-3 li-links-btn1">Login</button>
+            </li>
+            <li>
+              <button class="btn px-3 li-links-btn2">Sign up</button>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark li-links" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">EN</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">EN</a></li>
+                <li><a class="dropdown-item" href="#">UR</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-
-<!-- Hero section -->
-<div class="hero-container" id="destination">
-    <div class="content">
-        <p class="para1">Best Destinations around the world</p>
-        <h1 class="heading1">Travel, enjoy and live a new and full life</h1>
-        <p class="para2">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
-        <div class="hero-btns">
-            <button class="btn Find-btn"> Find out more</button>
-            <button class="btn demo"><img src="./assets/Polygon 1.png" alt=""> Play Demo</button>
         </div>
 
-    </div>
-        <div class="image-container">
+      </div>
+    </nav>
+
+
+    <!-- Hero section -->
+    <div class="hero-container w-100" id="destination">
+      <div class="content">
+        <p class="para1">Best Destinations around the world</p>
+        <h1 class="heading1">Travel, <span class="enjoy">enjoy</span> <br> and live a new <br>and full life</h1>
+        <p class="para2">Built Wicket longer admire do barton vanity itself do in it. <br> Preferred to sportsmen it
+          engrossed listening. Park gate sell they west hard for the.</p>
+        <div class="hero-btns">
+          <button class="btn Find-btn"> Find out more</button>
+          <button class="btn demo"><img src="./assets/Polygon 1.png" alt=""> Play Demo</button>
+        </div>
+
+      </div>
+      <div class="image-container">
         <img src="./assets/hero-img.png" alt="">
 
+      </div>
     </div>
-</div>
 
-<!-- best offer section -->
+    <!-- best offer section -->
 
-<div id="offer-section">
-    <div class="offer-content">
+    <div id="offer-section">
+      <div class="offer-content">
         <span>CATEGORY</span>
         <h2>We Offer Best Services</h2>
-    </div>
-<div class="best-offer">    
-    <div class="category">
-        <img src="./assets/offer-icon1.png" alt="">
-        <h3>Calculated Weather </h3>
-        <p>Built Wicket longer admire do barton vanity itself do in it.</p>
-    </div>
-    <div class="category">
-        <img src="./assets/offer-icon2.png" alt="" class="flight">
-        <h3>Best Flights</h3>
-        <p>Engrossed listening. Park gate sell they west hard for the.</p>
-    </div>
-    <div class="category">
-        <img src="./assets/offer-icon3.png" alt="">
-        <h3>Local Events</h3>
-        <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
-    </div>
-    <div class="category">
-        <img src="./assets/offer-icon4.png" alt="">
-        <h3>Customization</h3>
-        <p>We deliver outsourced aviation services for military customers</p>
-    </div>
-</div>
-</div>
-
-
-<!-- Booking section -->
- <div id="cards-section">
-<div class="offer-content">
-  <span>Top Selling</span>
-  <h2>Top Destinations</h2>
-</div>
-<div class="destination-cards">
-  <!-- Card 1 -->
-  <div class="card-custom">
-    <img src="./assets/booking1.png" alt="Rome" class="card-img">
-    <div class="card-content">
-      <div class="card-header">
-        <p class="location">Rome, Italy</p>
-        <p class="price">$5.42k</p>
       </div>
-      <div class="card-footer">
-        <img src="./assets/send.png" alt="icon">
-        <span>10 Days Trip</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Card 2 -->
-  <div class="card-custom">
-    <img src="./assets/booking2.jpg" alt="London" class="card-img">
-    <div class="card-content">
-      <div class="card-header">
-        <p class="location">London, UK</p>
-        <p class="price">$4.2k</p>
-      </div>
-      <div class="card-footer">
-        <img src="./assets/send.png" alt="icon">
-        <span>12 Days Trip</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- Card 3 -->
-  <div class="card-custom">
-    <img src="./assets/booking3.png" alt="Europe" class="card-img">
-    <div class="card-content">
-      <div class="card-header">
-        <p class="location">Full Europe</p>
-        <p class="price">$15k</p>
-      </div>
-      <div class="card-footer">
-        <img src="./assets/send.png" alt="icon">
-        <span>28 Days Trip</span>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-<!-- BOOK trip section -->
-<div id="book-trip" class="container py-5">
-  <div class="row align-items-center">
-    <div class="col-lg-6">
-      <span class="text-uppercase text-muted">Easy and Fast</span>
-      <h1 class="fw-bold my-3">Book your next trip in 3 easy steps</h1>
-
-      <div class="d-flex align-items-start mb-4">
-        <div class="trip-card me-3">
-          <img src="./assets/trip1.png" alt="">
+      <div class="best-offer">
+        <div class="category">
+          <img src="./assets/offer-icon1.png" alt="">
+          <h3>Calculated Weather </h3>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
         </div>
-        <div>
-          <h6 class="fw-semibold mb-1">Choose Destination</h6>
-          <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+        <div class="category">
+          <img src="./assets/offer-icon2.png" alt="" class="flight">
+          <h3>Best Flights</h3>
+          <p>Engrossed listening. Park gate sell they west hard for the.</p>
         </div>
-      </div>
-
-      <div class="d-flex align-items-start mb-4">
-        <div class="trip-card me-3 " style="background-color: #F15A2B;">
-          <img src="./assets/trip2.png" alt="">
+        <div class="category">
+          <img src="./assets/offer-icon3.png" alt="">
+          <h3>Local Events</h3>
+          <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
         </div>
-        <div>
-          <h6 class="fw-semibold mb-1">Make Payment</h6>
-          <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
-        </div>
-      </div>
-
-      <div class="d-flex align-items-start">
-        <div class="trip-card me-3" style="background-color: #006380;">
-          <img src="./assets/trip3.png" alt="">
-        </div>
-        <div>
-          <h6 class="fw-semibold mb-1">Reach Airport on Selected Date</h6>
-          <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+        <div class="category">
+          <img src="./assets/offer-icon4.png" alt="">
+          <h3>Customization</h3>
+          <p>We deliver outsourced aviation services for military customers</p>
         </div>
       </div>
     </div>
 
-    <div class="col-lg-6 mt-5 mt-lg-0 position-relative">
-      <div class="card big-card shadow" style="width: 100%; max-width: 400px;">
-        <img src="./assets/cardstrip.jpg" class="card-img-top img-fluid" alt="...">
-        <div class="card-body">
-          <h5 class="fw-bold mb-1">Trip To Greece</h5>
-          <p class="text-muted">14-29 June | by Robbin Josenph</p>
-          <div class="d-flex gap-2 mb-2">
-            <img src="./assets/leaf 1.png" alt="">
-            <img src="./assets/map 1.png" alt="">
-            <img src="./assets/send 2.png" alt="">
-          </div>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center gap-2">
-              <img src="./assets/Group.png" alt="">
-              <p class="mb-0">24 people going</p>
+
+    <!-- Booking section -->
+    <div id="cards-section">
+      <div class="offer-content">
+        <span>Top Selling</span>
+        <h2>Top Destinations</h2>
+      </div>
+      <div class="destination-cards">
+        <!-- Card 1 -->
+        <div class="card-custom">
+          <img src="./assets/booking1.png" alt="Rome" class="card-img">
+          <div class="card-content">
+            <div class="card-header">
+              <p class="location">Rome, Italy</p>
+              <p class="price">$5.42k</p>
             </div>
-            <img src="./assets/heart (6) 1.png" alt="">
+            <div class="card-footer">
+              <img src="./assets/send.png" alt="icon">
+              <span>10 Days Trip</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card-custom">
+          <img src="./assets/booking2.jpg" alt="London" class="card-img">
+          <div class="card-content">
+            <div class="card-header">
+              <p class="location">London, UK</p>
+              <p class="price">$4.2k</p>
+            </div>
+            <div class="card-footer">
+              <img src="./assets/send.png" alt="icon">
+              <span>12 Days Trip</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card-custom">
+          <img src="./assets/booking3.png" alt="Europe" class="card-img">
+          <div class="card-content">
+            <div class="card-header">
+              <p class="location">Full Europe</p>
+              <p class="price">$15k</p>
+            </div>
+            <div class="card-footer">
+              <img src="./assets/send.png" alt="icon">
+              <span>28 Days Trip</span>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="position-absolute end-0 bottom-0 translate-middle-y overly" style="width: 200px;">
-        <div class="card p-3 shadow ">
-          <img src="./assets/image 32.png" alt="" class="img-fluid mb-2 rounded-circle">
-          <p class="mb-1 text-muted">Ongoing</p>
-          <p class="fw-bold mb-1">Trip to Rome</p>
-          <p class="mb-0"><span class="fw-bold" style="color: #b47cf8">40%</span> Completed</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- TESTIMONIAL SECTION -->
-<section class="py-5 "id="Testimonials">
-  <div class="container">
-    <div class="row align-items-start">
-      <div class="col-lg-6 mb-4">
-        <p class="text-uppercase text-muted fw-semibold mb-1">Testimonials</p>
-        <h2 class="fw-bold" style="font-size: 2.5rem; color: #181E4B;">What People Say<br>About Us.</h2>
-        <div class="d-flex gap-2 mt-3">
-          <span class="dot bg-dark rounded-circle" style="width: 10px; height: 10px;"></span>
-          <span class="dot bg-secondary rounded-circle" style="width: 10px; height: 10px;"></span>
-          <span class="dot bg-secondary rounded-circle" style="width: 10px; height: 10px;"></span>
-        </div>
-      </div>
-
-      <div class="col-lg-6 position-relative">
-        <!-- User Image on top -->
-        <img src="./assets/testimonial-user.png" 
-             alt="User" 
-             class="rounded-circle position-absolute top-0 start-0 translate-middle testimonial-user-img" 
-             style="width: 60px; height: 60px; border: 3px solid white; box-shadow: 0 0 10px rgba(0,0,0,0.1); z-index: 2;">
-
-        <!-- Testimonial Card -->
-        <div class="card shadow p-4 pt-5 mt-5 testimonial-card" style="border: none;">
-          <p class="text-muted">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
-          <p class="fw-bold mb-0">Mike Taylor</p>
-          <p class="text-muted">Lahore, Pakistan</p>
-        </div>
-
-        <!-- Second Card -->
-        <div class="card shadow pe-3 ps-3 mt-3" style="max-width: 450px; width: 100%; border: none;">
-          <span style="color: #5E6282; font-weight: 600;">Chris Thomas</span>
-          <p style="color: #393a3b; font-size: 14px;">CEO of Red Button</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<!-- PARTNER LOGOS -->
-<section class="py-5">
-  <div class="container d-flex justify-content-between flex-wrap align-items-center gap-4">
-    <img src="./assets/image 27.png" alt="axon" height="100" >
-    <img src="./assets/image 28.png" alt="jetstar" height="100" >
-    <img src="./assets/image 29.png" alt="expedia" height="100">
-    <img src="./assets/image 30.png" alt="qantas" height="30">
-    <img src="./assets/image 31.png" alt="alitalia" height="30">
-  </div>
-</section>
-
-<!-- SUBSCRIBE SECTION -->
-<section class="py-2" style="background-color: white; border-radius: 40px;" id="Jadoo">
-  <div class="container text-center position-relative" style="background-color: #DFD7F9; padding: 20px; height: 300px; padding: 20px; border-radius: 20px;">
-    <h4 class="fw-semibold p-4" style="color: #5E6282; max-width: 600px; margin: auto; ">
-      Subscribe to get information, latest news and other interesting offers about Jadoo
-    </h4>
-    <div class="d-flex justify-content-center align-items-center flex-wrap gap-2 mb-5 ">
-      <div class="input-group" style="max-width: 350px;">
-        <span class="input-group-text bg-white border-0 rounded-start "><img src="./assets/Rectangle 22.png" alt=""></span>
-        <input type="email" class="form-control border-0" placeholder="Your email">
-      </div>
-      <button class="btn text-white px-5 me-auto align-items-center " style="background-color: #FF946D;">Subscribe</button>
-    </div>
-    <div class="position-absolute" style="top: -40px; right: 0px;">
-      <button class="btn rounded-circle">
-        <img src="./assets/Group 77.png" alt="">
-      </button>
-    </div>
-  </div>
-</section>
-
-
-<footer class="footer py-5 px-3">
-  <div class="container">
-    <div class="row text-center text-md-start justify-content-between align-items-start gy-4">
-
-      <!-- Logo & Description -->
-      <div class="col-md-3">
-        <h3 class="fw-bold text-dark">Jadoo.</h3>
-        <p class="text-muted mt-2 small">Book your trip in minute, get full control for much longer.</p>
-      </div>
-
-      <!-- Links Section -->
-      <div class="col-md-6 d-flex flex-wrap justify-content-between">
-        <div>
-          <h6 class="fw-bold text-dark">Company</h6>
-          <ul class="list-unstyled small mt-2">
-            <li><a href="#" class="text-muted text-decoration-none">About</a></li>
-            <li><a href="#" class="text-muted text-decoration-none">Careers</a></li>
-            <li><a href="#" class="text-muted text-decoration-none">Mobile</a></li>
-          </ul>
-        </div>
-        <div>
-          <h6 class="fw-bold text-dark">Contact</h6>
-          <ul class="list-unstyled small mt-2">
-            <li><a href="#" class="text-muted text-decoration-none">Help/FAQ</a></li>
-            <li><a href="#" class="text-muted text-decoration-none">Press</a></li>
-            <li><a href="#" class="text-muted text-decoration-none">Affiliates</a></li>
-          </ul>
-        </div>
-        <div>
-          <h6 class="fw-bold text-dark">More</h6>
-          <ul class="list-unstyled small mt-2">
-            <li><a href="#" class="text-muted text-decoration-none">Airlinefees</a></li>
-            <li><a href="#" class="text-muted text-decoration-none">Airline</a></li>
-            <li><a href="#" class="text-muted text-decoration-none">Low fare tips</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Social & App Links -->
-      <div class="col-md-3 text-md-end">
-        <div class="d-flex justify-content-center justify-content-md-end gap-2 mb-3 social-links">
-          <span class="social-icon"><img src="./assets/Facebook Icon.png" alt=""></span>
-          <span class="social-icon1 "><img src="./assets/instagram 1.png" alt=""></span>
-          <span class="social-icon"><img src="./assets/Vector.png" alt=""></span>
-        </div>
-        <p class="fw-semibold mb-2 text-center">Discover our app</p>
-        <div class="d-flex justify-content-center justify-content-md-end gap-2">
-          <img src="./assets/Google Play.png" alt="Google Play" height="40">
-          <img src="./assets/Play Store.png" alt="Apple Store" height="50">
-        </div>
-      </div>
     </div>
 
-    <div class="text-center mt-5 small text-muted">
-      All rights reserved @jadoo.co
-    </div>
-  </div>
-</footer>
 
-    
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-  </body>
+
+    <!-- BOOK trip section -->
+    <div id="book-trip" class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <span class="text-uppercase text-muted">Easy and Fast</span>
+          <h1 class="fw-bold my-3">Book your next trip in 3 easy steps</h1>
+
+          <div class="d-flex align-items-start mb-4">
+            <div class="trip-card me-3">
+              <img src="./assets/trip1.png" alt="">
+            </div>
+            <div>
+              <h6 class="fw-semibold mb-1">Choose Destination</h6>
+              <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start mb-4">
+            <div class="trip-card me-3 " style="background-color: #F15A2B;">
+              <img src="./assets/trip2.png" alt="">
+            </div>
+            <div>
+              <h6 class="fw-semibold mb-1">Make Payment</h6>
+              <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-start">
+            <div class="trip-card me-3" style="background-color: #006380;">
+              <img src="./assets/trip3.png" alt="">
+            </div>
+            <div>
+              <h6 class="fw-semibold mb-1">Reach Airport on Selected Date</h6>
+              <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-5 mt-lg-0 position-relative">
+          <!-- Main Trip Card -->
+          <div class="card big-card shadow" style="width: 100%; max-width: 400px;">
+            <img src="./assets/cardstrip.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Trip To Greece</h5>
+              <p class="text-muted">14-29 June | by Robbin Josenph</p>
+              <div class="d-flex gap-2 mb-2">
+                <img src="./assets/leaf 1.png" alt="">
+                <img src="./assets/map 1.png" alt="">
+                <img src="./assets/send 2.png" alt="">
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-2">
+                  <img src="./assets/Group.png" alt="">
+                  <p class="mb-0">24 people going</p>
+                </div>
+                <img src="./assets/heart (6) 1.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <!-- Ongoing Trip Small Card -->
+          <div class="position-absolute translate-middle-y overly"
+            style="width: 300px; left: 68%; top: 70%; transform: translateX(-50%);">
+
+            <div class="card p-2 shadow d-flex flex-column flex-sm-row align-items-center gap-2">
+              <img src="./assets/image 32.png" alt="Rome Trip" class="img-fluid rounded-circle"
+                style="width: 60px; height: 60px; object-fit: cover;">
+
+              <div class="text-center text-sm-start w-100">
+                <p class="mb-1 text-muted small">Ongoing</p>
+                <p class="fw-bold mb-1 small">Trip to Rome</p>
+                <p class="mb-1 small">
+                  <span class="fw-bold" style="color: #b47cf8;">40%</span> Completed
+                </p>
+                <input type="range" class="w-100" style="accent-color: #b47cf8;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- TESTIMONIAL SECTION -->
+      <section class="py-5 " id="Testimonials">
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col-lg-6 mb-4">
+              <p class="text-uppercase text-muted fw-semibold mb-1">Testimonials</p>
+              <h2 class="fw-bold" style="font-size: 2.5rem; color: #181E4B;">What People Say<br>About Us.</h2>
+              <div class="dots-container mt-3 mb-1">
+                <span class="dot"></span>
+                <span class="dot secondary"></span>
+                <span class="dot secondary"></span>
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 position-relative">
+              <!-- User Image on top -->
+              <img src="./assets/testimonial-user.png" alt="User"
+                class="rounded-circle position-absolute top-0 start-0 translate-middle testimonial-user-img"
+                style="width: 60px; height: 60px; border: 3px solid white; box-shadow: 0 0 10px rgba(0,0,0,0.1); z-index: 2;">
+
+              <!-- Testimonial Card -->
+              <div class="card shadow p-4 pt-5 mt-5 testimonial-card" style="border: none;">
+                <p class="text-muted">“On the Windows talking painted pasture yet its express parties use. Sure last
+                  upon he same as knew next. Of believed or diverted no.”</p>
+                <p class="fw-bold mb-0">Mike Taylor</p>
+                <p class="text-muted">Lahore, Pakistan</p>
+              </div>
+
+              <!-- Second Card -->
+              <div class="card shadow pe-3 ps-3 mt-3" style="max-width: 450px; width: 100%; border: none;">
+                <span style="color: #5E6282; font-weight: 600;">Chris Thomas</span>
+                <p style="color: #393a3b; font-size: 14px;">CEO of Red Button</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- PARTNER LOGOS -->
+      <section class="py-5 logos">
+        <div class="logos-container">
+          <img src="./assets/image 27.png" alt="axon" height="100" class="logo">
+          <img src="./assets/image 28.png" alt="jetstar" height="100" class="logo">
+          <img src="./assets/image 29.png" alt="expedia" height="100" class="logo">
+          <img src="./assets/image 30.png" alt="qantas" height="30">
+          <img src="./assets/image 31.png" alt="alitalia" height="30">
+        </div>
+      </section>
+
+      <!-- SUBSCRIBE SECTION -->
+      <section class=" subscribe-section" id="Jadoo">
+        <div class="container subscribe-container">
+          <h4 class="subscribe-heading">
+            Subscribe to get information, latest news and other interesting offers about Jadoo
+          </h4>
+          <div class="subscribe-form ">
+            <div class="input-group">
+              <span class="input-icon"><img src="./assets/icons8-email-50 (1).png" alt=""></span>
+              <input type="email" class="form-control border-0" placeholder="Your email">
+            </div>
+            <button class="subscribe-button">Subscribe</button>
+          </div>
+          <div class="subscribe-icon-wrapper">
+            <button class="icon-button">
+              <img src="./assets/Group 77.png" alt="">
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+
+            <!-- Logo & Description -->
+            <div class="footer-box">
+              <h3>Jadoo.</h3>
+              <p>Book your trip in minute, get full control for much longer.</p>
+            </div>
+
+            <!-- Links Section -->
+            <div class="footer-links">
+              <div class="footer-column">
+                <h6>Company</h6>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Mobile</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h6>Contact</h6>
+                <ul>
+                  <li><a href="#">Help/FAQ</a></li>
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">Affiliates</a></li>
+                </ul>
+              </div>
+              <div class="footer-column">
+                <h6>More</h6>
+                <ul>
+                  <li><a href="#">Airlinefees</a></li>
+                  <li><a href="#">Airline</a></li>
+                  <li><a href="#">Low fare tips</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Social & App Links -->
+            <div class="footer-social">
+              <div class="social-icons">
+                <img src="./assets/Facebook Icon.png" alt="Facebook">
+                <img src="./assets/instagram 1.png" alt="Instagram" style="background-color: #b47cf8;">
+                <img src="./assets/Vector.png" alt="Twitter">
+              </div>
+              <p>Discover our app</p>
+              <div class="app-icons">
+                <img src="./assets/Google Play.png" alt="Google Play" height="40">
+                <img src="./assets/Play Store.png" alt="Apple Store" height="50">
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            All rights reserved @jadoo.co
+          </div>
+        </div>
+      </footer>
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
